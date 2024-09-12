@@ -2,31 +2,25 @@
 	{
 		"name": "Chairs Store Co",
 		"description": "A full-stack web app featuring a dynamic shopping cart, seamless online ordering, and real-time order tracking, providing a smooth and interactive shopping experience from browsing to delivery.",
-		"image": "/assets/images/projects/add-to-cart1.jpg",
+		"image": "/assets/images/projects/chairswebsite.gif",
 		"url": "https://chairs-store-website.onrender.com"
 	},
 	{
 		"name": "Leviathon Salon",
 		"description": "A fully responsive, beautiful, and modern website for an on trend full-service salon.",
-		"image": "/assets/images/projects/leviathon.PNG",
+		"image": "/assets/images/projects/leviathon.gif",
 		"url": "https://leviathansalon.netlify.app"
 	},
 	{
 		"name": "Pizza Restaurant Website",
 		"description": "A restaurant website showcasing a visually appealing food menu, along with detailed information on ingredients, pricing, special offers, and dining options.",
-		"image": "/assets/images/projects/pizza.jpg",
+		"image": "/assets/images/projects/pizz-restaurant.gif",
 		"url": "https://pizza-restaurant-webdemo.netlify.app"
-	},
-	{
-		"name": "Flicker Face Painting",
-		"description": "Fun and color take charge for this local party entertainer's portfolio site.",
-		"image": "/assets/images/projects/flicker.PNG",
-		"url": "https://flicker029.netlify.app"
 	},
 	{
 		"name": "Kitten Store Website",
 		"description": "displays item photos and prices, with a shopping cart feature allowing users to add items, view cart quantity, and total price.",
-		"image": "/assets/images/projects/kittenStore.png",
+		"image": "/assets/images/projects/kittenStore.gif",
 		"url": "https://github.com/adelnasr029/kitten-store-demo"
 	}
 ]

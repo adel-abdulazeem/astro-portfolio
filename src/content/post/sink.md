@@ -1,60 +1,98 @@
 ---
 layout: ../../layouts/post.astro
-title: Sink - A short link system based on Cloudflare with visit statistics
-description: A short link system based on Cloudflare with visit statistics
-dateFormatted: Jun 4th, 2024
+title: Model-View-Controller (MVC) in programming
+description: A short lecture to make it easy to grasp that complext topic
+dateFormatted: Jun 2th, 2024
 ---
 
-I previously shared some websites on [Twitter](https://x.com/0xKaiBi) using short links to make it easier to see if people are interested. Among these link shortening systems, Dub provides the best user experience, but it has a fatal flaw: once the monthly clicks exceed 1000, you can no longer view the statistics.
 
-While surfing the internet at home during the Qingming Festival, I discovered that [Cloudflare Workers Analytics Engine](https://developers.cloudflare.com/analytics/analytics-engine/) supports data writing and API data querying. So, I created an MVP version myself, capable of handling statistics for up to 3,000,000 visits per month. Cloudflare's backend likely uses Clickhouse, so performance shouldn't be a significant issue.
+![MVC](../../../public/assets/images/posts/mvc.png)
 
-During the Labor Day holiday, I improved the frontend UI at home and used it for about half a month, finding it satisfactory. I have open-sourced it for everyone to use.
+**Definition**: MVC is an architectural pattern used by developers to organize backend code into separate folders and files based on their roles and responsibilities, rather than placing all functionalities in a single file.
 
-## Features
+- **M** (Model): This folder contains files responsible for interacting with the database.
+- **C** (Controller): This folder holds files that act as intermediaries between the Model and View, processing user requests and sending appropriate responses.
+- **V** (View): This folder includes files that manage what the user sees, often using templates to dynamically generate HTML elements for display.
 
-- Link shortening
-- Visit statistics
-- Serverless deployment
-- Custom Slug
-- 🪄 AI-generated Slug
-- Link expiration
+## Analogy
 
-## Demo
+Imagine a house with different rooms designed for specific activities, such as sleeping or cooking, rather than one large room for everything. Similarly, MVC organizes code into distinct folders, each containing files that focus on specific tasks, making it easier to manage and edit.
 
-[Sink.Cool](https://sink.cool/dashboard)
+Instead of having all code flow through a single file (like `server.js`), MVC allows:
 
-Site Token: `SinkCool`
-
-### Site-wide Analysis
-
-![Site-wide Analysis](https://static.miantiao.me/share/CBuVes/sink.cool_dashboard.png)
-
-<details>
-  <summary><b>Link Management</b></summary>
-  <img alt="Link Management" src="https://static.miantiao.me/share/uQVX7Q/sink.cool_dashboard_links.png"/>
-</details>
-
-
-<details>
-  <summary><b>Individual Link Analysis</b></summary>
-  <img alt="Individual Link Analysis" src="https://static.miantiao.me/share/WfyCXT/sink.cool_dashboard_link_slug=0.png"/>
-</details>
-
-## Open Source
-
-[![ccbikai/sink - GitHub](https://github.html.zone/ccbikai/sink)](https://github.com/ccbikai/sink)
-
-## Roadmap (WIP)
-
-- Browser extension
-- Raycast extension
-- Apple Shortcuts
-- Enhanced link management (based on Cloudflare D1)
-- Enhanced analysis (support filtering)
-- Panel performance optimization (support infinite loading)
-- Support for other platforms (maybe)
+- **Model** to handle database interactions.
+- **Views** to manage what the user sees.
+- **Controller** to coordinate communication between the Model and the View.
 
 ---
 
-Finally, feel free to follow me on [Twitter](https://x.com/0xKaiBi) for updates on development progress and to share some web development news.
+## Problems Solved by MVC
+
+- **Team Collaboration**: MVC allows multiple developers to work on different parts of the project simultaneously without interfering with each other’s work.
+- **Debugging**: With modular components, it's easier to identify and fix errors without impacting the entire system.
+- **Interchangeability**: The code structure is flexible, making it easier to update or replace individual components.
+
+## Ideal Scenarios for MVC
+
+- **Collaborative Projects**: MVC simplifies teamwork by enabling different developers to work on separate parts of the application.
+- **Easier Debugging**: Isolated issues can be addressed without affecting the entire project.
+- **Modular Structure**: With clearly defined roles, components are easier to maintain and swap out when necessary.
+
+---
+
+## Organizing Code
+
+When writing code, developers naturally organize it by indenting and separating different sections. MVC formalizes this process, making the code easier to navigate and modify.
+
+**Routes Folder**: Contains route files, each of which listens for and handles specific user requests.
+
+## Separation of Concerns
+
+MVC helps ensure that each part of the application has a distinct responsibility. Developers know exactly where to go when they need to make changes:
+
+- **CSS**: For styling and design.
+- **HTML**: For adjusting content and structure.
+- **JavaScript**: For handling interactivity and behavior.
+
+---
+
+## The Role of the Router
+
+The router is the first touchpoint for a client’s request. It listens for incoming requests, interprets the URL, and forwards the request to the appropriate controller.
+
+- The router ensures requests are directed to the correct handler based on the URL.
+
+---
+
+## Interaction Flow in MVC
+
+- **Model**: The only part of the application that interacts directly with the database.
+- **Controller**: Manages communication between the Model and View.
+- **Router**: Acts as the gateway, receiving client requests and passing them to the appropriate Controller for processing.
+
+---
+
+## Conclusion
+
+The MVC architecture offers several advantages, especially in projects where clear separation of responsibilities is crucial. Its modular structure allows for easier collaboration between team members, improved maintainability, and faster debugging. 
+
+### Advantages of MVC:
+
+1. **Scalability**: MVC makes it easier to scale applications by dividing them into distinct components (Model, View, Controller) that can be worked on independently.
+2. **Teamwork**: Developers can work on different layers (frontend, backend) simultaneously without causing conflicts.
+3. **Reusability**: MVC promotes reusability of code components, especially in Views and Controllers.
+4. **Easier Debugging**: Errors are easier to locate and fix, since issues in one component do not necessarily affect the others.
+
+### Best Scenarios for Applying MVC:
+
+- **Web Applications**: MVC is particularly suited for web development where there is a need to separate logic, interface, and data access.
+- **Large-Scale Projects**: MVC works best when the project involves multiple developers or needs clear separation between different parts of the code.
+- **Projects with Frequent Changes**: When a project requires frequent updates to the UI or business logic, MVC’s structure ensures these changes can be made without affecting the whole system.
+
+In summary, MVC provides an organized approach to coding that enhances maintainability, collaboration, and scalability, making it a preferred choice for both small and large development projects.
+
+
+
+---
+
+Finally, feel free to follow me on [LinkedIn](https://www.linkedin.com/in/adel-abdulazeem/) for updates on development progress and to share some web development news.
