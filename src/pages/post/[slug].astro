@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
-export const prerender = true;
+export const prerender = true;// fixed the error of rendering
+
 export async function getStaticPaths() {
 	const postEntries = await getCollection("post");
 	return postEntries.map((entry) => ({

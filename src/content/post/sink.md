@@ -11,12 +11,12 @@ dateFormatted: Jun 2th, 2024
 **Definition**: MVC is an architectural pattern used by developers to organize backend code into separate folders and files based on their roles and responsibilities, rather than placing all functionalities in a single file.
 
 - **M** (Model): This folder contains files responsible for interacting with the database.
-- **C** (Controller): This folder holds files that act as intermediaries between the Model and View, processing user requests and sending appropriate responses.
 - **V** (View): This folder includes files that manage what the user sees, often using templates to dynamically generate HTML elements for display.
+- **C** (Controller): This folder holds files that act as intermediaries between the Model and View, processing user requests and sending appropriate responses.
 
 ## Analogy
 
-Imagine a house with different rooms designed for specific activities, such as sleeping or cooking, rather than one large room for everything. Similarly, MVC organizes code into distinct folders, each containing files that focus on specific tasks, making it easier to manage and edit.
+Imagine a house with different rooms designed for specific activities, rather than one large room for everything. Similarly, MVC organizes code into distinct folders, each containing files that focus on specific tasks, making it easier to manage, edit and maintain.
 
 Instead of having all code flow through a single file (like `server.js`), MVC allows:
 
@@ -32,19 +32,11 @@ Instead of having all code flow through a single file (like `server.js`), MVC al
 - **Debugging**: With modular components, it's easier to identify and fix errors without impacting the entire system.
 - **Interchangeability**: The code structure is flexible, making it easier to update or replace individual components.
 
-## Ideal Scenarios for MVC
-
-- **Collaborative Projects**: MVC simplifies teamwork by enabling different developers to work on separate parts of the application.
-- **Easier Debugging**: Isolated issues can be addressed without affecting the entire project.
-- **Modular Structure**: With clearly defined roles, components are easier to maintain and swap out when necessary.
-
 ---
 
 ## Organizing Code
 
 When writing code, developers naturally organize it by indenting and separating different sections. MVC formalizes this process, making the code easier to navigate and modify.
-
-**Routes Folder**: Contains route files, each of which listens for and handles specific user requests.
 
 ## Separation of Concerns
 
@@ -62,13 +54,6 @@ The router is the first touchpoint for a client’s request. It listens for inco
 
 - The router ensures requests are directed to the correct handler based on the URL.
 
----
-
-## Interaction Flow in MVC
-
-- **Model**: The only part of the application that interacts directly with the database.
-- **Controller**: Manages communication between the Model and View.
-- **Router**: Acts as the gateway, receiving client requests and passing them to the appropriate Controller for processing.
 
 ---
 
