@@ -22,5 +22,12 @@
 		"description": "displays item photos and prices, with a shopping cart feature allowing users to add items, view cart quantity, and total price.",
 		"image": "/assets/images/projects/kittenStore.gif",
 		"url": "https://github.com/adelnasr029/kitten-store-demo"
+	},
+	{
+		"name": "PlantPicks",
+		"description": "provides users with personalized plant recommendations based on specific criteria they input into a form.",
+		"image": "/assets/images/projects/plant-picks.gif",
+		"url": "https://github.com/adelnasr029/PlantPicker"
+
 	}
 ]
