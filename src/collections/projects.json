@@ -6,7 +6,7 @@
 		"url": "https://chairs-store-website.onrender.com"
 	},
 	{
-		"name": "Leviathon Salon",
+		"name": "Leviathon Salon Website",
 		"description": "A fully responsive, beautiful, and modern website for an on trend full-service salon.",
 		"image": "/assets/images/projects/leviathon.gif",
 		"url": "https://leviathansalon.netlify.app"
@@ -24,10 +24,15 @@
 		"url": "https://github.com/adelnasr029/kitten-store-demo"
 	},
 	{
-		"name": "PlantPicks",
+		"name": "PlantPicks Website",
 		"description": "provides users with personalized plant recommendations based on specific criteria they input into a form.",
 		"image": "/assets/images/projects/plant-picks.gif",
 		"url": "https://github.com/adelnasr029/PlantPicker"
-
+	},
+	{
+		"name": "StarGazers Society APOD Web App",
+		"description": "Explore the wonders of space by using a website powered by the NASA API. Select any date to instantly access the captivating photo of the day.",
+		"image": "/assets/images/projects/starGazer.gif",
+		"url": "https://nasa-picture-every-day.netlify.app"
 	}
 ]
