@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Chairs Store Co",
+		"name": "Comfort Chair Co website",
 		"description": "A full-stack web app featuring a dynamic shopping cart, seamless online ordering, and real-time order tracking, providing a smooth and interactive shopping experience from browsing to delivery.",
 		"image": "/assets/images/projects/chairswebsite.gif",
 		"url": "https://chairs-store-website.onrender.com"
@@ -12,13 +12,13 @@
 		"url": "https://leviathansalon.netlify.app"
 	},
 	{
-		"name": "Pizza Restaurant Website",
+		"name": "Pizzela Restaurant Website",
 		"description": "A restaurant website showcasing a visually appealing food menu, along with detailed information on ingredients, pricing, special offers, and dining options.",
 		"image": "/assets/images/projects/pizz-restaurant.gif",
 		"url": "https://pizza-restaurant-webdemo.netlify.app"
 	},
 	{
-		"name": "Kitten Store Website",
+		"name": "Kitty Haven Website",
 		"description": "displays item photos and prices, with a shopping cart feature allowing users to add items, view cart quantity, and total price.",
 		"image": "/assets/images/projects/kittenStore.gif",
 		"url": "https://github.com/adelnasr029/kitten-store-demo"
