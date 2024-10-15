@@ -12,6 +12,10 @@
 		"url": "/projects"
 	},
 	{
+		"name": "Resume",
+		"url": "../assets/images/Adel_Abdulazeem_-_Software_Developer.pdf"
+	},
+	{
 		"name": "About",
 		"url": "/about"
 	}

@@ -1,10 +1,17 @@
 [
 	{
 		"dates": "Jan 2023 · Present",
-		"role": "Full-Stack Web Developer",
+		"role": "Software Engineer",
 		"company": "100Devs",
-		"description": "build full-stack web application and design interactive websites with responsive features",
+		"description": "● Partnered with cross-functional development teams to design and deploy modern, responsive web applications, driving a 25% increase in user engagement.Integrated third-party APIs, boosting user engagement by 25% and reducing response time by 15%. Spearheaded the development of multiple full-stack web applications.",
 		"logo": "/assets/images/experiences/100devs.jpg"
+	},
+	{
+		"dates": "Oct 2022 · Present",
+		"role": "Full-Stack Web Developer",
+		"company": " Adel’s Consulting",
+		"description": "● Created full-stack web applications for small and businesses, incorporating modern tools such as React.js and PostgreSQL, resulting in a 40% improvement in client satisfaction. Consulted clients on SEO best practices and social media strategies, leading to a 50% increase in website traffic.",
+		"logo": "/assets/images/favicon.png"
 	}
-
 ]
+
