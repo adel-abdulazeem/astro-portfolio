@@ -34,5 +34,11 @@
 		"description": "Explore the wonders of space by using a website powered by the NASA API. Select any date to instantly access the captivating photo of the day.",
 		"image": "/assets/images/projects/starGazer.gif",
 		"url": "https://nasa-picture-every-day.netlify.app"
+	},
+	{
+		"name": "StoryBooks",
+		"description": "The StoryBooks application was designed to provide a platform for users to share stories with a global audience or keep them private. Each user has the ability to register via Google OAuth, create stories, and manage their profile.",
+		"image": "/assets/images/projects/story-books.gif",
+		"url": "https://github.com/adelnasr029/create-your-story"
 	}
 ]
