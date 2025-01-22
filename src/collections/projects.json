@@ -1,5 +1,11 @@
 [
 	{
+		"name": "GymSubs management system",
+		"description": "GymSubs is a subscription management system designed for gym owners to manage client subscriptions efficiently. It allows gym owners to track subscription statuses (active, expired, upcoming) and notify clients about upcoming subscription expirations or due dates",
+		"image": "/assets/images/projects/gymSubs.gif",
+		"url": "https://github.com/adelnasr029/gymSub"
+	},
+	{
 		"name": "Comfort Chair Co website",
 		"description": "A full-stack web app featuring a dynamic shopping cart, seamless online ordering, and real-time order tracking, providing a smooth and interactive shopping experience from browsing to delivery.",
 		"image": "/assets/images/projects/chairswebsite.gif",
