@@ -6,9 +6,10 @@ const postCollection = defineCollection({
 		title: z.string(),
 		description: z.string(),
 		dateFormatted: z.string(),
-	}),
+	})
 });
 
 export const collections = {
 	post: postCollection,
+	
 };

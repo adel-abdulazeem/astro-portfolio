@@ -1,8 +1,8 @@
 [
 	{
-		"name": "GymSubs management system",
+		"name": "GymSubs management system demo",
 		"description": "GymSubs is a subscription management system designed for gym owners to manage client subscriptions efficiently. It allows gym owners to track subscription statuses (active, expired, upcoming) and notify clients about upcoming subscription expirations or due dates",
-		"image": "/assets/images/projects/gymSubs.gif",
+		"image": "/assets/images/projects/subs-manage-live.gif",
 		"url": "https://subs-manage-system.netlify.app"
 	},
 	{
