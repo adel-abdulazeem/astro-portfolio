@@ -1,5 +1,11 @@
 [
 	{
+		"name": "GPTalk-AI",
+		"description": "GPTalk is an AI-powered chat application built with Node.js, MongoDB, React and Tailwind CSS. It integrates Anthropic API (Claude API) and Cohere API for advanced natural language processing and streams real-time responses via Server-Sent Events, ensuring a seamless and interactive chat experience.",
+		"image": "/assets/images/projects/gptalk.gif",
+		"url": "https://gp-chat-ai-ui.netlify.app"
+	},
+	{
 		"name": "GymSubs management system demo",
 		"description": "GymSubs is a subscription management system designed for gym owners to manage client subscriptions efficiently. It allows gym owners to track subscription statuses (active, expired, upcoming) and notify clients about upcoming subscription expirations or due dates",
 		"image": "/assets/images/projects/subs-manage-live.gif",
