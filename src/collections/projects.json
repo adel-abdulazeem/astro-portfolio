@@ -18,6 +18,12 @@
 		"url": "https://chairs-store-website.onrender.com"
 	},
 	{
+		"name": "Employee ID Finder",
+		"description": "A web application built with Node.js, Express.js, and EJS to help 4,500 employees quickly retrieve their employee ID by entering any part of their name.",
+		"image": "/assets/images/projects/getID.gif",
+		"url": "https://ucl-year-winner.onrender.com"
+	},
+	{
 		"name": "Leviathon Salon Website",
 		"description": "A fully responsive, beautiful, and modern website for an on trend full-service salon.",
 		"image": "/assets/images/projects/leviathon.gif",
