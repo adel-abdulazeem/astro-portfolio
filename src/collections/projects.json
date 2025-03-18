@@ -1,5 +1,11 @@
 [
 	{
+		"name": "MedPrep-Guide System",
+		"description": "A comprehensive application that provides healthcare professionals with critical information on medication stability post-reconstitution, preparation guidelines, administration routes, and alerting notes. The application also includes a system for the Quality Control (QC) department to update and maintain data, ensuring that nursing staff have access to the most current information",
+		"image": "/assets/images/projects/medi-prep.gif",
+		"url": "https://medi-data-manage.netlify.app"
+	},
+	{
 		"name": "GPTalk-AI",
 		"description": "GPTalk is an AI-powered chat application built with Node.js, MongoDB, React and Tailwind CSS. It integrates Anthropic API (Claude API) and Cohere API for advanced natural language processing and streams real-time responses via Server-Sent Events, ensuring a seamless and interactive chat experience.",
 		"image": "/assets/images/projects/gptalk.gif",
