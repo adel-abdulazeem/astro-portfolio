@@ -1,8 +1,7 @@
 ---
-layout: ../../layouts/post.astro
 title: Model-View-Controller (MVC) in programming
 description: A short lecture to make it easy to grasp that complext topic
-dateFormatted: Jun 2th, 2024
+date: Jun 2th, 2024
 ---
 
 

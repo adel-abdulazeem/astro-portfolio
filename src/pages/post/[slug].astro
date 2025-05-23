@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+import PostLayout from '../../layouts/post.astro'
 export const prerender = true;// fixed the error of rendering
 
 export async function getStaticPaths() {
@@ -10,8 +11,20 @@ export async function getStaticPaths() {
 	}));
 }
 
-const { entry } = Astro.props;
-const { Content } = await entry.render();
----
 
-<Content />
+// 2. Grab `slug` from params and find the entry
+const { slug } = Astro.params;
+const posts = await getCollection('post');
+const post = posts.find((p) => p.slug === slug);
+
+if (!post) {
+  throw new Error(`Post not found: ${slug}`);
+}
+
+// 3. Destructure props and prepare the Markdown body
+const { title, description, date } = post.data;
+const { Content } = await post.render();
+---
+<PostLayout {title} {description} {date}>
+  <Content />
+</PostLayout>

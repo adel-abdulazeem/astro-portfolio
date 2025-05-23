@@ -5,11 +5,10 @@ const postCollection = defineCollection({
 	schema: z.object({
 		title: z.string(),
 		description: z.string(),
-		dateFormatted: z.string(),
+		date: z.string(),
 	})
 });
 
 export const collections = {
 	post: postCollection,
-	
 };
